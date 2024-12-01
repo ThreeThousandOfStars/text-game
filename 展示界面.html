@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字冒险游戏</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #eee;
+            padding: 20px;
+        }
+        #game-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+        .option {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>文字冒险游戏</h1>
+        <p id="game-text">欢迎来到游戏世界！你现在站在一片森林中，前面有一条小路。</p>
+        <div id="options"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
